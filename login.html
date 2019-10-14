@@ -1,0 +1,105 @@
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<script>
+function validasiForm() {
+  var x = document.forms["formku"]["nama-depan"].value;
+  var y = document.forms["formku"]["pass"].value;
+  if (x == "") {
+    alert("email tidak boleh kosong");
+    // return false;
+  }
+  else if (y == "") {
+  	alert("pass kosong");
+  	// return false;
+  } else if (x == "admin") {
+  	location.replace("transaksi.html");
+  }
+  else{ alert("berhasil")
+  	return true;
+  }
+  return false;
+}
+
+</script>
+<div class="container">
+	<nav style="background-color: purple;height: 30px">
+		<ul class="left">
+			<li><a href="beranda.html" style="color: white; padding-left: 20px; height: 30px">Home</a></li>
+			
+		</ul>
+		<ul class="right">
+
+			<li><a href="login.html">Login</a></li>
+			<li><a href="daftar.html">Daftar</a></li>
+		
+			
+			
+		</ul>
+		<div class="both"></div>
+	</nav>
+
+	<div class="header" style="background-image: url(bglogo.jpg);height: 200px; width: 1000px; background-repeat: no-repeat;background-size: 1000px 200px;">
+		<br>
+		
+	</div>
+
+	<div class="content">
+
+		<div class="kotaklogin">
+			<img src="logo tanimart ungu.jpg" style="width: 400px;height: 50px">
+
+			<center>
+			<div style="padding-top: 20">
+				<strong>Masuk</strong>
+				<br>
+			
+				<br><br><br>
+				<p>Silahkan login disini</p>
+			</div>
+			</center>
+
+			<div style="padding-top: 10">
+			<tr>
+    			<form name="formku" action="beranda-login.html" onsubmit="return validasiForm()" method="post">
+    				
+    			
+    			
+    			<center><td><input type="text" name="nama-depan" placeholder="Email" style="height: 30px;width: 270px"></td></center>
+			</tr><br>
+
+			<tr>
+
+    			<center><td><input type="Password" name="pass" placeholder="Password" style="height: 30px;width: 270px"></td></center>
+			</tr><br>
+
+			<center>
+    			<td><button  style="color: purple;width: 60 ;background-color: #17D9DC;height: 25px;border-radius: 20px">Masuk</button> </td>
+    			<button style="color: purple;width: 60 ;background-color: #17D9DC;height: 25px; border-radius: 20px">Batal</button> </td>
+    			</form>
+			</center>
+			</div>
+
+		</div>
+			
+		
+
+	</div>
+
+	<div class="Sosmed">
+		<img src="facebook.png" style="float: right;padding-right: 15px;height: 40px;width: 40px;">
+		<img src="whatsapp.png" style="float: right;padding-right: 5px;height: 40px;width: 40px;">
+		<img src="instagram.png" style="float: right;padding-right: 5px;height: 40px;width: 40px;">
+		<p style="float: right;font-family: verdana;margin-top: 10px;margin-right: 5px;display: inline-block;"> ikuti kami</p>
+	</div>
+
+	<div class="bawah">
+			<br>
+			<strong style="margin: 10px 0 0px 20px;float: left;">Hubungi kami</strong><br><br>
+			<p style="margin: 0px 0 5px 20px">Tanimart.com adalah toko online yang menjual produk pertanian 										terbesar di Indonesia.</p>
+			<p style="margin: 0px 0 5px 20px">Jalan Letnan Soetarman no. 134 Jember</p>
+			<p style="margin: 0px 0 5px 20px">tanimart@sales.com</p>
+			<p style="margin: 0px 0 5px 20px">0332 74456</p>
+
+	</div>
+	<div class="both"></div>
+</div>
+
