@@ -15,7 +15,11 @@ header p{color: #666;
 		font-size: 13px;}
 
 .both{clear: both;}
-.left{float: left;}.right{float: right;}
+.left{float: left;}
+.right{
+	float: right;
+	margin-right: 20px;
+}
 
 nav{width: 1000px; 
 	margin-bottom: 5px; 
@@ -23,16 +27,14 @@ nav{width: 1000px;
 }
 nav ul li{list-style: none
 		;display: inline;}
-nav ul li a{display: inline-block;
-	padding: 8px 12px;
-	color: white;
+nav ul li a{
+	display: inline-block;
+	color: black;
 	text-decoration: none;
-	font-size: 12px;
-	margin-right: 5px}
-nav ul li a:hover{color: #1ab6dc}
-.nav{background: #1ab6dc}
-.nav ul li{
-	list-style: none;display: inline;
+	font-size: 18px;
+	margin-top: 5px
+	}
+nav ul li a:hover{color: black}
 }
 .bg{
 	background-image: url(background.jpg);
@@ -53,55 +55,75 @@ nav ul li a:hover{color: #1ab6dc}
 } 
 .kategori{
 	width: 1000px;
+	
 }
 
-.sayur a{
+.listkategori a{
 	font-family: Verdana;
 	text-align: center;
 	margin-top: 4px;
 	display: inline-block;
 	text-decoration: none; 
-	padding-left: 200px; 
 	height: 30px;
-	color: purple;
+	color:#2d369c;
 	font-size: 18px;
 
 }
-.buah a{
-	font-family: Verdana;
-	text-align: center;
-	margin-top: 4px;
-	display: inline-block;
-	text-decoration: none; 
-	padding-left: 200px; 
-	height: 30px;
-	color: purple;
-	font-size: 18px;
-}
-.sayur {
-	margin: 5px 0px 0px 0;
+
+.listkategori {
+	margin: 5px;
 	height:30px;
-	width:497px;
+	width:240px;
 	float: left;
 	border: 0px solid black;
-	background-color: #fff18a;
+	background-color: #e8ff1c;
 	position: relative;
 	border-radius: 10px;
 }
-.buah {
-	margin: 5px 0 0px 0px;
+.pelanggan{
+	height : 400px;
+	width : 950px;
+	margin-top: 20px;
+	margin-left: 25px;
+	position: absolute;
+}
+.pelanggan table{
+	position: absolute;
+	left:130px;
+	margin-top: 30px;
+}
+.pelanggan th{
+	width: 100px;
+	height: 40px;
+}
+.pelanggan td{
+	width: 100px;
+	height: 50px;
+}
+.pelanggan button{
+	position: absolute;
+	top: 400px;
+	left: 770px;
 	height: 30px;
-	width: 497px;
-	float: right;
-	border: 0px solid black;
-	background-color: #fff18a;
-	position: relative;
-	border-radius: 10px;
+	width: 80px;
+	margin-top: 10px;
+	margin-left: 0px;
+	border-radius: 20px;
+	border-color: #3a3080;
+	background-color: #e3e300; 
+	cursor: pointer;
+	color:#3a3080;
 }
+.pelanggan h1{
+	margin-top: 20px;
+
+}
+
 .content {
+	position: absolute;
 	margin-top: 5px;
-	width: 100%;
-	height: 550px;
+	width: 1000px;
+	height: 500px;
 	background-color: #c9b8ff;
 }
 .Sosmed {
@@ -175,6 +197,8 @@ nav ul li a:hover{color: #1ab6dc}
 	color:#3a3080;
 }
 .button{
+
+	margin-top: 50px;
 	
 }
 .kiri {
@@ -238,30 +262,52 @@ nav ul li a:hover{color: #1ab6dc}
 	font-family: verdana;
 	font-size: 24px;
 }
-
-.transaksi {
-	
+.transaksi{
+		
+	height : 400px;
+	width : 950px;
+	margin-top: 20px;
+	margin-left: 25px;
+	position: absolute;
 }
 .transaksi table{
-	
-	border: 1px solid black;
-	width: 750px;
-	margin-left: 120px;
-	border-collapse: collapse;
-	
+	margin-top: 20px	
 }
-.transaksi th td{
-	border: 1px solid black;
-	padding: 10px;
+.transaksi td,th{
+	width: 100px;
+	border:1px solid black;
 	text-align: center;
 }
+.pelanggan td,th{
+	width: 100px;
+	border:1px solid black;
+	text-align: center;
+}
+
 .transaksi button{
 	height: 30px;
-	width: 50px;
-	border-radius: 8px;
-	background-color: grey;
-	color: white;
+	width: 80px;
+	margin-top: 10px;
+	margin-left: 810px;
+	border-radius: 20px;
+	border-color: #3a3080;
+	background-color: #e3e300; 
+	cursor: pointer;
+	color:#3a3080;
 }
+.barang button{
+	height: 30px;
+	width: 80px;
+	margin-top: 10px;
+	margin-left: 810px;
+	border-radius: 20px;
+	border-color: #3a3080;
+	background-color: #e3e300; 
+	cursor: pointer;
+	color:#3a3080;
+}
+
+
 th {
 	text-align: center;
 }
@@ -270,10 +316,11 @@ td {
 }
 
 .bawah{
+	position: absolute;
 	width: 1000px;
 	height: 200px;
 	border: 0px solid black;
-	margin-top: 5px;
+	margin-top: 505px;
 	background-color: #92a1f7;
 	border-radius: 0 0 20px 20px;
 	
@@ -581,3 +628,83 @@ td {
 	margin-top: 10px;
 
 }
+.profiladmin{
+	border : 1px solid black;
+	height : 400px;
+	width : 950px;
+	margin-top: 20px;
+	margin-left: 25px;
+	position: absolute;
+}
+.form{
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.forminput{
+	margin-top: 12px;
+	margin-left: 350px;
+}
+.forminput input{
+	margin-top: 10px;
+	height: 30px;
+	width: 250px;
+	margin-left: 10px;
+
+}
+.profiladmin button{
+	height: 30px;
+	width: 80px;
+	margin-top: 10px;
+	margin-left: 0px;
+	border-radius: 20px;
+	border-color: #3a3080;
+	background-color: #e3e300; 
+	cursor: pointer;
+	color:#3a3080;
+}
+.form p{
+	font-size: 26px;
+	margin-bottom: 10px;
+}
+.foto{
+	float: left;
+}
+.foto img{
+	margin-top: 20px;
+	margin-left: 200px;
+	height: 200px;
+	width: 200px;
+}
+.barang{
+	
+	height : 470px;
+	width : 950px;
+	margin-top: 20px;
+	margin-left: 25px;
+	position: absolute;
+}
+.listbarang{
+	border:1px solid black;
+	height: 150px;
+	width: 440px;
+	margin-left: 25px;
+	float: left;
+	margin-top: 25px;
+}
+.listbarang img{
+	width: 100px;
+	height: 100px;
+	margin-top: 20px;
+	margin-left: 20px;
+	float: left;
+}
+.listbarang tr,td{
+	border: 0px;
+	text-align: left;
+}
+.listbarang table{
+	margin-top: 30px;
+	margin-left: 150px;
+
+
