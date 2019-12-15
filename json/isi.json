@@ -3,25 +3,33 @@
     {
 "gambar" : "tomat.jpg",
 "nama" : "Tomat",
-"harga" : "Rp. 700.000"
+"harga"  : "Rp. 700.000",
+"beli"	 : "belitomat-login.html",
+"detail" :"detailtomat-login.html"
 },
 
 {
 "gambar" : "anggur.jpg",
 "nama" : "Anggur",
-"harga" : "Rp. 700.000"
+"harga" : "Rp. 700.000",
+"beli"	 : "belianggur-login.html",
+"detail" :"detailanggur-login.html"
 },
 
 {
 "gambar" : "apel.jpg",
 "nama" : "Apel",
-"harga" : "Rp. 700.000"
+"harga" : "Rp. 700.000",
+"beli"	 : "beliapel-login.html",
+"detail" :"detailapel-login.html"
 },
 
 {
 "gambar" : "kubis.jpg",
 "nama" : "Kubis",
-"harga" : "Rp. 700.000"
+"harga" : "Rp. 700.000",
+"beli"	 : "belikubis-login.html",
+"detail" :"detailkubis-login.html"
 }
 
 ]
