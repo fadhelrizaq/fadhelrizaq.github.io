@@ -1,27 +1,25 @@
 [
 
     {
-"gambar" : "../tomat.jpg",
+"gambar" : "tomat.jpg",
 "nama" : "Tomat",
-"harga" : "Rp. 700.000/ton"
+"harga" : "Rp. 700.000"
 },
 
 {
-"gambar" : "../tomat.jpg",
+"gambar" : "anggur.jpg",
 "nama" : "Tomat",
-"harga" : "Rp. 700.000/ton"
+"harga" : "Rp. 700.000"
 },
 
 {
-"gambar" : "../tomat.jpg",
+"gambar" : "apel.jpg",
 "nama" : "Tomat",
-"harga" : "Rp. 700.000/ton"
+"harga" : "Rp. 700.000"
 },
 
 {
-"gambar" : "../tomat.jpg",
+"gambar" : "kubis.jpg",
 "nama" : "Tomat",
-"harga" : "Rp. 700.000/ton"
+"harga" : "Rp. 700.000"
 }
-
-]
