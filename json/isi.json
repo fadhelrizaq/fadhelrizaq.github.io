@@ -1,0 +1,27 @@
+[
+
+    {
+"gambar" : "tomat.jpg",
+"nama" : "Tomat",
+"harga" : "Rp. 700.000"
+},
+
+{
+"gambar" : "anggur.jpg",
+"nama" : "Anggur",
+"harga" : "Rp. 700.000"
+},
+
+{
+"gambar" : "apel.jpg",
+"nama" : "Apel",
+"harga" : "Rp. 700.000"
+},
+
+{
+"gambar" : "kubis.jpg",
+"nama" : "Kubis",
+"harga" : "Rp. 700.000"
+}
+
+]
