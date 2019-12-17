@@ -1,3 +1,4 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="css/index.css">
 <script>
 function validasiForm() {
@@ -14,16 +15,17 @@ function validasiForm() {
   	location.replace("admin-beranda.html");
   }
   else{ alert("berhasil")
-  	return true;
+  	location.replace("beranda-login.html");
   }
   return false;
 }
 
 </script>
-<div class="bg" style="background-image: url(bg.jpg);background-repeat: no-repeat;width: 1350px;height: auto">
-	<div class="body"><nav style="background-color: purple;height: 30px">
+<div class="bg">
+	<div class="body">
+		<nav class="navbar">
 		<ul class="left">
-			<li><a href="beranda.html" style="color: white; padding-left: 20px; height: 30px">Home</a></li>
+			<li><a href="beranda.html">Home</a></li>
 			
 		</ul>
 		<ul class="right">
@@ -37,15 +39,13 @@ function validasiForm() {
 		<div class="both"></div>
 	</nav>
 
-	<div class="header" style="background-image: url(bglogo.jpg);height: 200px; width: 1000px; background-repeat: no-repeat;background-size: 1000px 200px;">
-		<br>
-		
+	<div class="header">	
 	</div>
 
 	<div class="content">
 
 		<div class="kotaklogin">
-			<img src="logo tanimart ungu.jpg" style="width: 500px;height: 90px">
+			<img class="tanimart" src="logo tanimart ungu.jpg">
 
 			<center>
 			<div style="padding-top: 20">
@@ -59,18 +59,18 @@ function validasiForm() {
 
 			<div style="padding-top: 10">
 			<tr>
-    			<form name="formku" action="beranda-login.html" onsubmit="return validasiForm()" method="post">
+    			<form name="formku" action="" onsubmit="return validasiForm()" method="post">
     				
     			
-    			
-    			<center><td><input type="text" name="nama-depan" placeholder="Email" style="height: 30px;width: 270px"></td></center>
+    		<div class="inputlogin">
+    			<center><td><input type="text" name="nama-depan" placeholder="Email"></td></center>
 			</tr><br>
 
 			<tr>
 
-    			<center><td><input type="Password" name="pass" placeholder="Password" style="height: 30px;width: 270px"></td></center>
+    			<center><td><input type="Password" name="pass" placeholder="Password"></td></center>
 			</tr><br>
-
+			</div>
 			<center>
     			<div class="button">
     				<button>Masuk</button>
@@ -85,21 +85,22 @@ function validasiForm() {
 
 	</div>
 
-	<div class="Sosmed">
-		<img src="facebook.png" style="float: right;padding-right: 15px;height: 40px;width: 40px;">
-		<img src="whatsapp.png" style="float: right;padding-right: 5px;height: 40px;width: 40px;">
-		<img src="instagram.png" style="float: right;padding-right: 5px;height: 40px;width: 40px;">
-		<p style="float: right;font-family: verdana;margin-top: 10px;margin-right: 5px;display: inline-block;"> ikuti kami</p>
+	<div class="Sosmedbar">
+		<img class="fb" src="facebook.png">
+		<img class="wa" src="whatsapp.png">
+		<img class="ig" src="instagram.png">
+		<p class="ik"> ikuti kami</p>
 	</div>
 
 	<div class="bawah">
 			<br>
-			<strong style="margin: 10px 0 0px 20px;float: left;">Hubungi kami</strong><br><br>
-			<p style="margin: 0px 0 5px 20px">Tanimart.com adalah toko online yang menjual produk pertanian 										terbesar di Indonesia.</p>
-			<p style="margin: 0px 0 5px 20px">Jalan Letnan Soetarman no. 134 Jember</p>
-			<p style="margin: 0px 0 5px 20px">tanimart@sales.com</p>
-			<p style="margin: 0px 0 5px 20px">0332 74456</p>
-
+			<div class="hubungi">
+			<strong>Hubungi kami</strong><br><br>
+			<p>Tanimart.com adalah toko online yang menjual produk pertanian 										terbesar di Indonesia.</p>
+			<p>Jalan Letnan Soetarman no. 134 Jember</p>
+			<p>tanimart@sales.com</p>
+			<p>0332 74456</p>
+			</div>
 	</div>
 	<div class="both"></div>
 </div>
